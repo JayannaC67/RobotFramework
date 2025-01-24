@@ -1,31 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-22T17:58:00.941043" rpa="false" schemaversion="5">
-<suite id="s1" name="Google" source="D:\Python_automation\New_robot_framework\scripts\google.robot">
-<test id="s1-t1" name="Open Iframe" line="11">
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-24T17:54:40.799647" rpa="false" schemaversion="5">
+<suite id="s1" name="Katalon" source="D:\Python_automation\New_robot_framework\scripts\Katalon.robot">
+<test id="s1-t1" name="Katalonstudio with pageobject concept" line="13">
+<kw name="Read Xml" owner="support">
+<msg time="2025-01-24T17:54:41.659775" level="INFO">${url} = https://katalon.com</msg>
+<var>${url}</var>
+<arg>applicationurl</arg>
+<status status="PASS" start="2025-01-24T17:54:41.607035" elapsed="0.052811"/>
+</kw>
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-01-22T17:58:01.594580" level="INFO">Opening browser 'HeadlessChrome' to base url 'https://www.google.com/'.</msg>
-<arg>${URL1}</arg>
-<arg>${BROWSER}</arg>
+<msg time="2025-01-24T17:54:41.660795" level="INFO">Opening browser 'Chrome' to base url 'https://katalon.com'.</msg>
+<arg>${url}</arg>
+<arg>${Browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-01-22T17:58:01.594361" elapsed="3.478160"/>
+<status status="PASS" start="2025-01-24T17:54:41.660542" elapsed="13.051680"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-01-22T17:58:08.073526" level="INFO">Slept 3 seconds.</msg>
-<arg>3 seconds</arg>
+<msg time="2025-01-24T17:54:56.714950" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-01-22T17:58:05.072941" elapsed="3.000773"/>
+<status status="PASS" start="2025-01-24T17:54:54.713848" elapsed="2.001317"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-01-22T17:58:08.074120" elapsed="0.031549"/>
+<status status="PASS" start="2025-01-24T17:54:56.715896" elapsed="0.097394"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-24T17:54:58.814912" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-24T17:54:56.814089" elapsed="2.001051"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2025-01-24T17:54:58.889366" level="INFO">Element '(//img[@alt='Katalon Logo'])[1]' is displayed.</msg>
+<arg>${katalon_logo}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2025-01-24T17:54:58.815817" elapsed="0.073731"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-01-24T17:54:58.890500" level="INFO">Logo is visible</msg>
+<arg>Logo is visible</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-01-24T17:54:58.890191" elapsed="0.000435"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-01-22T17:58:08.106660" elapsed="2.208221"/>
+<status status="PASS" start="2025-01-24T17:54:58.891052" elapsed="2.524302"/>
 </kw>
-<status status="PASS" start="2025-01-22T17:58:01.593406" elapsed="8.722039"/>
+<status status="PASS" start="2025-01-24T17:54:41.606486" elapsed="19.809552"/>
 </test>
-<status status="PASS" start="2025-01-22T17:58:00.943436" elapsed="9.373557"/>
+<status status="PASS" start="2025-01-24T17:54:40.801966" elapsed="20.616111"/>
 </suite>
 <statistics>
 <total>
@@ -34,7 +58,7 @@
 <tag>
 </tag>
 <suite>
-<stat name="Google" id="s1" pass="1" fail="0" skip="0">Google</stat>
+<stat name="Katalon" id="s1" pass="1" fail="0" skip="0">Katalon</stat>
 </suite>
 </statistics>
 <errors>

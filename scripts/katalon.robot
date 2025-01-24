@@ -11,7 +11,7 @@ ${Browser}      Chrome
 
 *** Test Cases ***
 Katalonstudio with pageobject concept
-    ${url}=    support.reading_xml   applicationurl1
+    ${url}=    support.read_xml   applicationurl
     Open Browser    ${url}    ${Browser}
     Sleep           2
     Maximize Browser Window
