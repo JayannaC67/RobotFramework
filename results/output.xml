@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-24T15:39:54.221227" rpa="false" schemaversion="5">
+<suite id="s1" name="Tags" source="D:\Python_automation\New_robot_framework\Scripts\Tags.robot">
+<test id="s1-t1" name="Test Case 1" line="5">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is test case 1</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-24T15:39:54.307658" elapsed="0.000296"/>
+</kw>
+<tag>Smoke</tag>
+<status status="PASS" start="2025-01-24T15:39:54.306674" elapsed="0.001627"/>
+</test>
+<test id="s1-t2" name="Test Case 4" line="14">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is test case 4</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-24T15:39:54.309219" elapsed="0.000337"/>
+</kw>
+<tag>Smoke</tag>
+<status status="PASS" start="2025-01-24T15:39:54.308780" elapsed="0.001040"/>
+</test>
+<doc>Tags in Robot Framework</doc>
+<status status="PASS" start="2025-01-24T15:39:54.224243" elapsed="0.086045"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat name="Tags" id="s1" pass="2" fail="0" skip="0">Tags</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-22T17:17:33.089651" rpa="false" schemaversion="5">
+<suite id="s1" name="New robot framework" source="D:\Python_automation\New_robot_framework">
+<suite id="s1-s1" name="Scripts" source="D:\Python_automation\New_robot_framework\scripts">
+<suite id="s1-s1-s1" name="Google" source="D:\Python_automation\New_robot_framework\scripts\google.robot">
+<test id="s1-s1-s1-t1" name="Open Iframe" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-01-22T17:17:33.738957" level="INFO">Opening browser 'Chrome' to base url 'https://demo.automationtesting.in/Frames.html'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-01-22T17:17:33.738609" elapsed="3.608858"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-22T17:17:40.348714" level="INFO">Slept 3 seconds.</msg>
+<arg>3 seconds</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-22T17:17:37.347950" elapsed="3.000963"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-01-22T17:17:40.349823" elapsed="0.050053"/>
+</kw>
+<kw name="Select Frame" owner="SeleniumLibrary">
+<msg time="2025-01-22T17:17:40.401453" level="INFO">Selecting frame 'id:singleframe'.</msg>
+<arg>id:singleframe</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="PASS" start="2025-01-22T17:17:40.400673" elapsed="0.073169"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-22T17:17:40.474899" level="INFO">Typing text 'Testing' into text field '//input[@type='text']'.</msg>
+<arg>//input[@type='text']</arg>
+<arg>Testing</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-22T17:17:40.474553" elapsed="0.150429"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-22T17:17:45.627052" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-22T17:17:40.626050" elapsed="5.001242"/>
+</kw>
+<kw name="Unselect Frame" owner="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="PASS" start="2025-01-22T17:17:45.628259" elapsed="0.005722"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-01-22T17:17:45.634815" elapsed="3.892878"/>
+</kw>
+<status status="PASS" start="2025-01-22T17:17:33.737286" elapsed="15.791443"/>
+</test>
+<status status="PASS" start="2025-01-22T17:17:33.163607" elapsed="16.366954"/>
+</suite>
+<status status="PASS" start="2025-01-22T17:17:33.161982" elapsed="16.371354"/>
+</suite>
+<status status="PASS" start="2025-01-22T17:17:33.092614" elapsed="16.442752"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="New robot framework" id="s1" pass="1" fail="0" skip="0">New robot framework</stat>
+<stat name="Scripts" id="s1-s1" pass="1" fail="0" skip="0">New robot framework.Scripts</stat>
+<stat name="Google" id="s1-s1-s1" pass="1" fail="0" skip="0">New robot framework.Scripts.Google</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,9 @@
+<testdata>
+    <applicationurl>https://katalon.com</applicationurl>
+    <applicationurl1>https://www.letskodeit.com/practice</applicationurl1>
+    <url1>testUser</url1>
+    <password>Password$$#1</password>
+    <email>mithunroy.ee@gmail.com</email>
+    <herokuapp>https://the-internet.herokuapp.com/</herokuapp>
+    <alerttext>I am learning robot freamework</alerttext>
+</testdata>
