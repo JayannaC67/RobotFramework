@@ -21,6 +21,10 @@ Test Case 11
 Test Case 12
     [tags]    Jayanna
     Log To Console    This is test case 6
+
+Test Case 13
+    [Tags]    Smoke
+    Log To Console    This is test case 7
 *** Keywords ***
 
 
