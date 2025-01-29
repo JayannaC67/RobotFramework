@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-24T20:55:38.523094" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-29T17:51:55.211333" rpa="false" schemaversion="5">
 <suite id="s1" name="Katalon" source="D:\Python_automation\New_robot_framework\scripts\Katalon.robot">
 <test id="s1-t1" name="Katalonstudio with pageobject concept" line="13">
 <kw name="Read Xml" owner="support">
-<msg time="2025-01-24T20:55:39.089160" level="INFO">${url} = https://katalon.com</msg>
+<msg time="2025-01-29T17:51:55.884995" level="INFO">${url} = https://katalon.com</msg>
 <var>${url}</var>
 <arg>applicationurl</arg>
-<status status="PASS" start="2025-01-24T20:55:39.076697" elapsed="0.012518"/>
+<status status="PASS" start="2025-01-29T17:51:55.872663" elapsed="0.012388"/>
 </kw>
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-01-24T20:55:39.090117" level="INFO">Opening browser 'Chrome' to base url 'https://katalon.com'.</msg>
+<msg time="2025-01-29T17:51:55.886371" level="INFO">Opening browser 'chrome' to base url 'https://katalon.com'.</msg>
 <arg>${url}</arg>
-<arg>${Browser}</arg>
+<arg>${Browser1}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-01-24T20:55:39.089902" elapsed="21.581826"/>
+<status status="PASS" start="2025-01-29T17:51:55.886053" elapsed="6.838653"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-01-24T20:56:02.672929" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-01-29T17:52:04.726391" level="INFO">Slept 2 seconds.</msg>
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-01-24T20:56:00.672167" elapsed="2.000875"/>
+<status status="PASS" start="2025-01-29T17:52:02.725693" elapsed="2.000953"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-01-24T20:56:02.673592" elapsed="0.073732"/>
+<status status="PASS" start="2025-01-29T17:52:04.727339" elapsed="0.098384"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-01-24T20:56:04.748353" level="INFO">Slept 2 seconds.</msg>
+<msg time="2025-01-29T17:52:06.827570" level="INFO">Slept 2 seconds.</msg>
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-01-24T20:56:02.747725" elapsed="2.000727"/>
+<status status="PASS" start="2025-01-29T17:52:04.826553" elapsed="2.001225"/>
 </kw>
 <kw name="Element Should Be Visible" owner="SeleniumLibrary">
-<msg time="2025-01-24T20:56:04.787678" level="INFO">Element '(//img[@alt='Katalon Logo'])[1]' is displayed.</msg>
+<msg time="2025-01-29T17:52:06.878860" level="INFO">Element '(//img[@alt='Katalon Logo'])[1]' is displayed.</msg>
 <arg>${katalon_logo}</arg>
 <doc>Verifies that the element identified by ``locator`` is visible.</doc>
-<status status="PASS" start="2025-01-24T20:56:04.749231" elapsed="0.038533"/>
+<status status="PASS" start="2025-01-29T17:52:06.828408" elapsed="0.050641"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-01-24T20:56:04.788179" level="INFO">Logo is visible</msg>
+<msg time="2025-01-29T17:52:06.880046" level="INFO">Logo is visible</msg>
 <arg>Logo is visible</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-01-24T20:56:04.788066" elapsed="0.000148"/>
+<status status="PASS" start="2025-01-29T17:52:06.879749" elapsed="0.000351"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-01-24T20:56:04.788460" elapsed="2.267280"/>
+<status status="PASS" start="2025-01-29T17:52:06.880482" elapsed="2.337292"/>
 </kw>
-<status status="PASS" start="2025-01-24T20:55:39.076001" elapsed="27.980264"/>
+<status status="PASS" start="2025-01-29T17:51:55.872043" elapsed="13.346301"/>
 </test>
-<status status="PASS" start="2025-01-24T20:55:38.525132" elapsed="28.532146"/>
+<status status="PASS" start="2025-01-29T17:51:55.213203" elapsed="14.006078"/>
 </suite>
 <statistics>
 <total>

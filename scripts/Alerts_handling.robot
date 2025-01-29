@@ -7,7 +7,7 @@ Library    XML
 
 *** Variables ***
 
-${Browser}      Chrome
+#${Browser}      Chrome
 #${URL}            https://www.Katalon.com/
 #${URL1}           https://www.google.com/
 
@@ -53,10 +53,22 @@ Window handling
 
 
 Iframe handling
-    ${URL}=    support.Read Xml    url1
+    ${URL}=    support.read Xml    url1
     Open Browser    ${URL}    ${BROWSER}
     Sleep    2
     Maximize Browser Window
+    Sleep    2
+    Select Frame    id:singleframe
+    Input Text    (//input[@type='text'])[1]    Testing
+    Sleep    3
+    Unselect Frame
+
+Handling nested iframe
+    ${URL}=    support.read Xml    url1
+    Open Browser    ${URL}    ${BROWSER}
+    Sleep    2
+    Maximize Browser Window
+    Sleep    2
 
 
 

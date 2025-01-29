@@ -8,7 +8,7 @@ Library          SeleniumLibrary
 
 *** Variables ***
 
-${BROWSER}        chrome
+#${BROWSER}        chrome
 ${URL}            https://www.letskodeit.com/practice
 
 *** Test Cases ***

@@ -5,7 +5,7 @@ Variables    ../Locators/Katalon.py
 
 *** Variables ***
 
-${Browser}      Chrome
+#${Browser}      Chrome
 #${URL}            https://www.Katalon.com/
 #${URL1}           https://www.google.com/
 
